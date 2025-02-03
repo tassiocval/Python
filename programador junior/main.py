@@ -1,9 +1,17 @@
-soma = 1 + 1
-multiplicacao = 4 * 4
-divisao = 30 / 2
-potencia =  7 ** 2
+notas = []
 
-print("soma",soma)
-print("multiplicacao",multiplicacao)
-print("divisao",divisao)
-print("potencia",potencia)
+contador = 1
+
+while contador <= 5:
+    codigo_aluno = input("RM: ")
+    nota = float(input("Nota: "))
+    resultado = [codigo_aluno, nota]
+    notas.append(resultado)
+
+
+    contador = contador + 1
+
+
+print("quantidades de notas:", len(notas))
+
+
