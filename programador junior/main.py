@@ -1,17 +1,16 @@
-notas = []
+# Números inteiros
+idade = 25
 
-contador = 1
+# Números de ponto flutuante
+altura = 1.75
 
-while contador <= 5:
-    codigo_aluno = input("RM: ")
-    nota = float(input("Nota: "))
-    resultado = [codigo_aluno, nota]
-    notas.append(resultado)
+# String (texto)
+nome = "João"
 
+# Booleanos 
+estudante = True
 
-    contador = contador + 1
-
-
-print("quantidades de notas:", len(notas))
-
-
+print(idade)
+print(altura)
+print(nome)
+print(estudante)
