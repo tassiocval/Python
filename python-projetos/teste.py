@@ -109,11 +109,11 @@
 # else:
 #     print('Nota inválida! Digite uma nota entre 0 e 10.')
 
+senha_correta = ("admin123")
 
-try:
-    num1 = float(input('Digite um número: '))
-    num2 = float(input('Digite um segundo número: '))
-    num3 = float(input('Digite um terceiro número: '))
+senha = input("Digite sua senha: ")
 
-    if num1 > num2 and num3:
-        print(f'O {num1} é maior que')
+if senha == senha_correta:
+    print("Acesso permitido.")
+else:
+    print("Senha incorreta.")  
